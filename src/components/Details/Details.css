@@ -4,3 +4,9 @@
     padding-left: 140px;
     
 }
+
+.exercises-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}

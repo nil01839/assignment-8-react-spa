@@ -12,7 +12,7 @@ const Details = () => {
 
     return (
         <div className='details-container'>
-            <div className="exercises">
+            <div className="exercises-container">
                 {
                     exercises.map(exercise => <Exercise 
                         key={exercise.id}
