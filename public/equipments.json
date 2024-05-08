@@ -1,0 +1,65 @@
+[
+    {
+        "id": "0001",
+        "category": "Weight Training",
+        "name": "Dumbbell 5 Kg",
+        "time": 60,
+        "img": "https://www.jordanfitness.com/cdn/shop/files/JTFDSRN4-02_1024x1024.jpg?v=1711014039"
+    },
+    {
+        "id": "0002",
+        "category": "Weight Training",
+        "name": "Dumbbell 10 Kg",
+        "time": 60,
+        "img": "https://www.gymmarine.com/product/jordan-premium-urethane-dumbbells/"
+    },
+    {
+        "id": "0003",
+        "category": "Weight Training",
+        "name": "Dumbbell 15 Kg",
+        "time": 60,
+        "img": "https://sc04.alicdn.com/kf/Hc8d98ff256754df2bbcf427b16cc5a18O.jpg"
+    },
+    {
+        "id": "0004",
+        "category": "Weight Training",
+        "name": "Dumbbell 20 Kg",
+        "time": 60,
+        "img": "https://phoenix-fitness.com/cdn/shop/products/RY1414-grey6.jpg?v=1626697778"
+    },
+    {
+        "id": "0005",
+        "category": "Weight Training",
+        "name": "Dumbbell 25 Kg",
+        "time": 60,
+        "img": "https://i.ebayimg.com/images/g/0DkAAOSwWhFk5Gyw/s-l1200.webp"
+    },
+    {
+        "id": "0006",
+        "category": "Weight Training",
+        "name": "Barbell 40Kg",
+        "time": 30,
+        "img": "https://www.gymratz.co.uk/images/product/detail/jor40.jpg"
+    },
+    {
+        "id": "0007",
+        "category": "Weight Training",
+        "name": "Barbell 50Kg",
+        "time": 30,
+        "img": "https://images-cdn.ubuy.co.in/65ed33c8af399c30062589c6-mirafit-urethane-fixed-weight-barbell.jpg"
+    },
+    {
+        "id": "0008",
+        "category": "Weight Training",
+        "name": "Barbell 60Kg",
+        "time": 30,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-2T2-iebZFqJheqbapt4bwgfSQlHRAQf-4CH72aEnyn3X3mMXpiyJ8FRkSL7tciYslUE&usqp=CAU"
+    },
+    {
+        "id": "0009",
+        "category": "Weight Training",
+        "name":"Barbell 80Kg",
+        "time": 30,
+        "img": "https://www.fitnesssuperstore.com/v/vspfiles/photos/ff-ezcurlbb80_2.jpg"
+    }
+       ]
