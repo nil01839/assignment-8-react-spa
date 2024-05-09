@@ -1,5 +1,7 @@
 import React from 'react';
 import './Exercise.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 
 const Exercise = (props) => {
     const {exercise, handleAddToReport} = props;
@@ -16,7 +18,10 @@ const Exercise = (props) => {
                 <p>Time: {time}s</p>
 
             </div>
-            <button onClick={()=>handleAddToReport(exercise)} className='btn-report'>Add to Report</button>
+            <button onClick={()=>handleAddToReport(exercise)} className='btn-report'>
+                <p  className='btn-text'>Add to Report</p>
+                <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
+                </button>
             
         </div>
     );
