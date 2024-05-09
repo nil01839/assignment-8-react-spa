@@ -1,0 +1,20 @@
+.breaks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.breaks button{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: rgb(142, 227, 238);
+    border: 1px solid royalblue;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.breaks button:hover{
+    background-color: rgb(243, 161, 8);
+}

@@ -1,0 +1,11 @@
+.physical-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.physical-info div{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}

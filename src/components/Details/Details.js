@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Details.css'
 import Exercise from '../Exercise/Exercise';
+import Report from '../Report/Report';
 
 const Details = () => {
     const [exercises, setExercises] = useState([]);
@@ -13,7 +14,7 @@ const Details = () => {
     },[])
 
     const handleAddToReport = (exercise) =>{
-        console.log(exercise);
+        // console.log(exercise);
         const newReport = [...report, exercise];
         setReport(newReport);
     }
@@ -26,12 +27,12 @@ const Details = () => {
                         key={exercise.id}
                         exercise = {exercise}
                         handleAddToReport = {handleAddToReport}
+                        
                         ></Exercise>)
                 }
             </div>
-            <div className="daily-report">
-                <h4>Daily Report</h4>
-                <p>Selected Exercises: {report.length}</p>
+            <div className="report-container">
+                <Report report={report}></Report>
             </div>
         </div>
     );

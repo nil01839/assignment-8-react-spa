@@ -1,0 +1,32 @@
+.report{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+
+}
+
+.img-container{
+    padding-left: 40px;
+}
+.report img{
+    width: 80px;
+    border: 2px solid cyan;
+    border-radius: 80px;
+    
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    
+}
+
+.location-text{
+    margin-left: 10px;
+}
+
+.time-and-break{
+    background-color: rgb(178, 221, 221);
+    border-radius: 8px;
+    padding: 0 5px;
+}
