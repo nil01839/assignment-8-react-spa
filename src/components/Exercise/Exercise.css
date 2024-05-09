@@ -3,6 +3,8 @@
     height: 480px;
     border: 1px solid #95A0A7;
     border-radius: 6px;
+    position: relative;
+    margin-top: 20px;
 }
 .exercise img{
     width: 280px;
@@ -18,4 +20,24 @@
     font-size: 21px;
     line-height: 25px;
 }
+.exercise-info{
+    margin: 0 14px;
+}
 
+.exercise-info p{
+    margin-bottom: 0;
+}
+
+.btn-report{
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 6px 6px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-report:hover{
+    background-color: orange;
+}

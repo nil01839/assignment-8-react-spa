@@ -2,8 +2,11 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise = (props) => {
-    const{category, name, time, img} = props.exercise;
-    console.log(props.exercise)
+    const {exercise, handleAddToReport} = props;
+    const{category, name, time, img} = exercise;
+    // console.log(props.exercise)
+
+
     return (
         <div className='exercise'>
             <img src={img} alt="" />
@@ -13,6 +16,8 @@ const Exercise = (props) => {
                 <p>Time: {time}s</p>
 
             </div>
+            <button onClick={()=>handleAddToReport(exercise)} className='btn-report'>Add to Report</button>
+            
         </div>
     );
 };
